@@ -149,7 +149,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div id="testimonial-slider" class="owl-carousel">
-                                            @foreach(include('public/assets/landing/data/testimonial.php') as $data)
+                                            @foreach(include(base_path("public/assets/landing/data/testimonial.php")) as $data)
                                                 <div class="testimonial">
                                                     <div class="pic">
                                                         <img src="{{$data['image']}}"
